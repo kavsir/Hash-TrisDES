@@ -1,12 +1,18 @@
 # Hash-TrisDES
 Ứng dụng SHA và Triple DES để bảo vệ mật khẩu người dùng trong cơ sở dữ liệu
 • Mô tả: Sinh viên sẽ xây dựng một hệ thống xác thực người dùng an toàn bằng cách:
-      – Sử dụng SHA và Triple DES để xử lý mật khẩu an toàn.
-      – Dùng Salt ngẫu nhiên riêng cho từng người dùng.
-      – Kết hợp băm mật khẩu và tên đăng nhập để tăng tính duy nhất.
-      – Các chức năng: đăng ký, đăng nhập, đổi mật khẩu.
-      – Tự động khóa tài khoản sau nhiều lần nhập sai.
-      – Giao diện quản trị: quản lý tài khoản, mở khóa, xem lịch sử đăng nhập
+
+ – Sử dụng SHA và Triple DES để xử lý mật khẩu an toàn.
+      
+– Dùng Salt ngẫu nhiên riêng cho từng người dùng.
+      
+– Kết hợp băm mật khẩu và tên đăng nhập để tăng tính duy nhất.
+      
+– Các chức năng: đăng ký, đăng nhập, đổi mật khẩu.
+      
+– Tự động khóa tài khoản sau nhiều lần nhập sai.
+      
+– Giao diện quản trị: quản lý tài khoản, mở khóa, xem lịch sử đăng nhập
 
 
 • Tính năng yêu cầu:
