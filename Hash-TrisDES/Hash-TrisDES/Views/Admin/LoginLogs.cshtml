@@ -1,0 +1,29 @@
+﻿@model List<Hash_TrisDES.Models.LoginLog>
+@{
+    ViewData["Title"] = "Lịch sử đăng nhập";
+}
+
+<h2>Lịch sử đăng nhập</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Thời gian</th>
+            <th>Tên đăng nhập</th>
+            <th>Thành công</th>
+            <th>Ghi chú</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var log in Model)
+        {
+            <tr>
+                <td>@log.Timestamp.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                <td>@log.Username</td>
+                <td>@(log.IsSuccess ? "✅" : "❌")</td>
+                <td>@log.Message</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Admin" class="btn btn-primary">Quay lại quản lý người dùng</a>
