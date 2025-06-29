@@ -1,11 +1,15 @@
 ﻿@{
     ViewData["Title"] = "Đăng nhập";
 }
+@section Styles {
+    <link rel="stylesheet" href="~/css/Login.css" />
+}
+<div class="login-page">
 
-<h2>Đăng nhập</h2>
 
 <form asp-action="Login" method="post">
     <div class="form-group">
+            <h2>Đăng nhập</h2>
         <label>Tên đăng nhập</label>
         <input type="text" name="username" class="form-control" required />
     </div>
@@ -15,8 +19,9 @@
     </div>
     <button type="submit" class="btn btn-primary mt-2">Đăng nhập</button>
 </form>
+<div style="margin-top:20px; text-align:center;">
 <a href="/Account/Register">Chưa có tài khoản? Đăng ký</a>
-
+</div>
 @if (!ViewData.ModelState.IsValid)
 {
     <div class="text-danger mt-2">
@@ -26,3 +31,5 @@
         }
     </div>
 }
+
+</div>

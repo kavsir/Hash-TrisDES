@@ -13,6 +13,11 @@ namespace Hash_TrisDES.Models
         [Required]
         public string Salt { get; set; } = null!;      // Random salt
 
+        public string? Ten { get; set; }
+        public DateOnly NgaySinh { get; set; }
+        public string? Phone { get; set; } = null!; 
+        public string? Email { get; set; } = null!; 
+
         [Required]
         public string EncryptedPassword { get; set; } = null!; // Hash + 3DES
 
@@ -23,5 +28,6 @@ namespace Hash_TrisDES.Models
         public bool IsAdmin { get; set; } = false;     
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
+
     }
 }

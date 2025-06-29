@@ -20,33 +20,56 @@ namespace Hash_TrisDES.Controllers
         [HttpGet]
         public IActionResult Register() => View();
 
-        [HttpPost]
-        public async Task<IActionResult> Register(string username, string password)
-        {
-            var salt = _security.GenerateSalt();
-            var encryptedPassword = _security.EncryptPassword(username, password, salt);
+       [HttpPost]
+public async Task<IActionResult> Register(
+    string username, string password, string confirmPassword,
+    string ten, DateTime ngaySinh, string phone, string email)
+{
+    if (password != confirmPassword)
+    {
+        ModelState.AddModelError("", "Mật khẩu nhập lại không khớp.");
+        return View();
+    }
 
-            var user = new User
-            {
-                Username = username,
-                Salt = salt,
-                EncryptedPassword = encryptedPassword,
-                FailAttempts = 0,
-                IsLocked = false,
-                IsAdmin = false
-            };
+    var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
+    if (existingUser != null)
+    {
+        ModelState.AddModelError("", "Tên đăng nhập đã tồn tại.");
+        return View();
+    }
 
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
+    var salt = _security.GenerateSalt();
+    var encryptedPassword = _security.EncryptPassword(username, password, salt);
 
-            return RedirectToAction("Login");
-        }
+    var user = new User
+    {
+        Username = username,
+        Salt = salt,
+        EncryptedPassword = encryptedPassword,
+        FailAttempts = 0,
+        IsLocked = false,
+        IsAdmin = false,
+        Ten = ten,
+        NgaySinh = DateOnly.FromDateTime(ngaySinh),
+        Phone = _security.HashSHA256(phone),
+        Email = _security.HashSHA256(email)
+    };
+
+    _context.Users.Add(user);
+    await _context.SaveChangesAsync();
+
+    return RedirectToAction("Login");
+}
+
+
         [HttpGet]
         public IActionResult Login() => View();
+
 
         [HttpPost]
         public async Task<IActionResult> Login(string username, string password)
         {
+
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
             if (user == null)
             {
@@ -89,6 +112,8 @@ namespace Hash_TrisDES.Controllers
                 ModelState.AddModelError("", $"Sai mật khẩu. Bạn còn {remaining} lần thử.");
                 return View();
             }
+
+
         }
 
         // ===============================
@@ -98,8 +123,25 @@ namespace Hash_TrisDES.Controllers
         public IActionResult ChangePassword() => View();
 
         [HttpPost]
-        public async Task<IActionResult> ChangePassword(string username, string oldPassword, string newPassword)
+        public async Task<IActionResult> ChangePassword(
+    string username,
+    string oldPassword,
+    string newPassword,
+    string verifyOption,
+    string? verifyPhone,
+    string? verifyEmail)
         {
+            if (verifyOption == "phone" && string.IsNullOrEmpty(verifyPhone))
+            {
+                ModelState.AddModelError("", "Vui lòng nhập số điện thoại xác minh.");
+                return View();
+            }
+            if (verifyOption == "email" && string.IsNullOrEmpty(verifyEmail))
+            {
+                ModelState.AddModelError("", "Vui lòng nhập email xác minh.");
+                return View();
+            }
+
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
             if (user == null || user.IsLocked)
             {
@@ -114,7 +156,8 @@ namespace Hash_TrisDES.Controllers
                 return View();
             }
 
-            // Mật khẩu cũ đúng, đổi mật khẩu mới
+
+            // ✔️ Nếu xác minh đúng → đổi mật khẩu
             var newSalt = _security.GenerateSalt();
             user.Salt = newSalt;
             user.EncryptedPassword = _security.EncryptPassword(username, newPassword, newSalt);
@@ -122,8 +165,8 @@ namespace Hash_TrisDES.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Login");
-        }
 
+        }
         // ===============================
         // Ghi log đăng nhập
         // ===============================
@@ -140,6 +183,7 @@ namespace Hash_TrisDES.Controllers
             _context.LoginLogs.Add(log);
             _context.SaveChanges();
         }
+
     }
 }
 

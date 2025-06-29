@@ -7,6 +7,14 @@ namespace Hash_TrisDES.Services
     {
         private readonly string secretKey = "SuperSecretKey123"; // nên lưu trong cấu hình
 
+        public string HashSHA256(string input)
+        {
+            using var sha = SHA256.Create();
+            var bytes = Encoding.UTF8.GetBytes(input);
+            var hash = sha.ComputeHash(bytes);
+            return Convert.ToBase64String(hash);
+        }
+
         public string GenerateSalt()
         {
             byte[] saltBytes = new byte[16];
@@ -21,21 +29,10 @@ namespace Hash_TrisDES.Services
         {
             string hashedUsername = HashSHA256(username);
             string hashedPasswordSalt = HashSHA256(password + salt);
-
             string combined = hashedUsername + hashedPasswordSalt;
             string finalHash = HashSHA256(combined);
 
             return EncryptTripleDES(finalHash);
-        }
-
-        private string HashSHA256(string input)
-        {
-            using (SHA256 sha = SHA256.Create())
-            {
-                byte[] bytes = Encoding.UTF8.GetBytes(input);
-                byte[] hash = sha.ComputeHash(bytes);
-                return Convert.ToBase64String(hash);
-            }
         }
 
         private string EncryptTripleDES(string plainText)
