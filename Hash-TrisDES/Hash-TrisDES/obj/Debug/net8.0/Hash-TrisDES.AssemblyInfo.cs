@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hash-TrisDES")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e3481805a40083affe18409aa4ecaf7d9ce4dc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0470a99f045aa4b175d7a9e9b6c7a4f602ac7c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hash-TrisDES")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hash-TrisDES")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -23,9 +23,20 @@
                 <td>@(user.IsLocked ? "🔒 Bị khóa" : "✅ Hoạt động")</td>
                 <td>@user.CreatedAt.ToString("dd/MM/yyyy HH:mm")</td>
                 <td>
-                    <a asp-action="Unlock" asp-route-id="@user.Id" class="btn btn-warning btn-sm">Mở khóa</a>
-                    <a asp-action="Delete" asp-route-id="@user.Id" class="btn btn-danger btn-sm" onclick="return confirm('Xác nhận xóa người dùng?')">Xóa</a>
+                    @if (user.IsLocked)
+                    {
+                        <a asp-action="Unlock" asp-route-id="@user.Id" class="btn btn-warning btn-sm">Mở khóa</a>
+                    }
+                    else
+                    {
+                        <a asp-action="Lock" asp-route-id="@user.Id" class="btn btn-secondary btn-sm">Khóa lại</a>
+                    }
+
+                    <a asp-action="Delete" asp-route-id="@user.Id"
+                       class="btn btn-danger btn-sm"
+                       onclick="return confirm('Xác nhận xóa người dùng?')">Xóa</a>
                 </td>
+
             </tr>
         }
     </tbody>
