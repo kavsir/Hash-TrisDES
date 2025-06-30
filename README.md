@@ -10,9 +10,11 @@
       
 – Các chức năng: đăng ký, đăng nhập, đổi mật khẩu.
       
-– Tự động khóa tài khoản sau nhiều lần nhập sai.
+– Tự động khóa tài khoản sau 5 lần nhập sai.
       
 – Giao diện quản trị: quản lý tài khoản, mở khóa, xem lịch sử đăng nhập
+
+-Giao diện người dùng: đăng nhập, đăng ký, đổi mật khẩu, quên mật khẩu
 
 
 • Tính năng yêu cầu:
@@ -49,6 +51,8 @@
       – Xóa tài khoản
         
       – Mở khóa tài khoản bị khóa
+
+      - Khoá tài khoản đang hoạt động
         
       – Xem lịch sử đăng nhập (log)
 
@@ -66,6 +70,12 @@
 *encrypted_password
 *fail_attempts = 0
 *is_locked = FALSE
+*CreateAt
+*Ten
+*NgaySinh
+*Email
+*Phone
+*isAdmin
 
 **– Đăng nhập:**
 1. Nhận username và password nhập vào
@@ -89,7 +99,7 @@
 4. Nếu đúng:
 * Tạo Salt mới
 * Hash và mã hóa lại mật khẩu mới
-* Cập nhật vào cơ sở dữ liệu\
+* Cập nhật vào cơ sở dữ liệu
 
 
 **– Quản trị viên:**
@@ -98,7 +108,7 @@
 * Tên đăng nhập
 * Trạng thái (Hoạt động / Bị khóa)
 * Ngày tạo
-* Nút: Xóa, Mở khóa
+* Nút: Xóa, Mở khóa, khoá lại
 * Chức năng mở khóa: admin nhấn nút
 
 **– Ghi log hoạt động đăng nhập:**
