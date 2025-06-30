@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hash_TrisDES.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250625124018_AddUserAndLoginLog")]
-    partial class AddUserAndLoginLog
+    [Migration("20250630075625_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -62,6 +62,9 @@ namespace Hash_TrisDES.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("EncryptedPassword")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -75,8 +78,17 @@ namespace Hash_TrisDES.Migrations
                     b.Property<bool>("IsLocked")
                         .HasColumnType("bit");
 
+                    b.Property<DateOnly>("NgaySinh")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Salt")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Ten")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Username")
