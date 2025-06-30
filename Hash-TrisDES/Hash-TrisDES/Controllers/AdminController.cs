@@ -21,7 +21,17 @@ namespace Hash_TrisDES.Controllers
                 .ToListAsync();
             return View(users);
         }
-
+        // khóa tài khoản
+        public async Task<IActionResult> Lock(int id)
+        {
+            var user = await _context.Users.FindAsync(id);
+            if (user != null)
+            {
+                user.IsLocked = true;
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToAction("Index");
+        }
         // ✅ Mở khóa tài khoản
         public async Task<IActionResult> Unlock(int id)
         {
