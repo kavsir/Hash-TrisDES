@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\models\\passwordresettoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\models\\passwordresettoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\models\\loginlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\models\\loginlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\services\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\services\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,26 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\models\\loginlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\models\\loginlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\views\\admin\\createadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -47,20 +83,8 @@
       "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\views\\admin\\loginlogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\views\\admin\\loginlogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|solutionrelative:hash-trisdes\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FD6A3A1-619A-4483-A041-226A638449A1}|Hash-TrisDES\\Hash-TrisDES.csproj|d:\\bmtt\\hash-trisdes\\hash-trisdes\\hash-trisdes\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -93,6 +117,32 @@
           "SelectedChildIndex": 9,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Hash-TrisDES\\Models\\User.cs",
+              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Models\\User.cs",
+              "RelativeToolTip": "Hash-TrisDES\\Models\\User.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA/wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:52:57.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Hash-TrisDES\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAawBYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T13:46:40.984Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
@@ -110,59 +160,144 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Hash-TrisDES\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T08:17:44.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Hash-TrisDES\\Models\\User.cs",
-              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Models\\User.cs",
-              "RelativeToolTip": "Hash-TrisDES\\Models\\User.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBUAAABNAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Hash-TrisDES\\Services\\EmailService.cs",
+              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Services\\EmailService.cs",
+              "RelativeToolTip": "Hash-TrisDES\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T18:53:32.337Z",
+              "WhenOpened": "2025-07-01T04:33:27.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Hash-TrisDES\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Hash-TrisDES\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAADwv4EAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAANEAAAAAAAAAAAAiwO8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T12:46:30.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Hash-TrisDES\\Controllers\\AdminController.cs",
               "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Hash-TrisDES\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAIwEoAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAqwGoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T14:51:22.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "PasswordResetToken.cs",
+              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Models\\PasswordResetToken.cs",
+              "RelativeDocumentMoniker": "Hash-TrisDES\\Models\\PasswordResetToken.cs",
+              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Models\\PasswordResetToken.cs",
+              "RelativeToolTip": "Hash-TrisDES\\Models\\PasswordResetToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T04:22:36.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Hash-TrisDES\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T13:45:52.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Hash-TrisDES\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T14:52:03.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Hash-TrisDES\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:55:03.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "Hash-TrisDES\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:56:55.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Program.cs",
+              "RelativeDocumentMoniker": "Hash-TrisDES\\Program.cs",
+              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Program.cs",
+              "RelativeToolTip": "Hash-TrisDES\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T18:24:50.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Hash-TrisDES\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:37:09.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Hash-TrisDES\\Services\\IEmailService.cs",
+              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Services\\IEmailService.cs",
+              "RelativeToolTip": "Hash-TrisDES\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T04:33:03.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Home\\Index.cshtml",
@@ -170,51 +305,47 @@
               "RelativeToolTip": "Hash-TrisDES\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-29T08:07:49.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T08:07:49.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "SecurityService.cs",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Services\\SecurityService.cs",
               "RelativeDocumentMoniker": "Hash-TrisDES\\Services\\SecurityService.cs",
               "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Services\\SecurityService.cs",
               "RelativeToolTip": "Hash-TrisDES\\Services\\SecurityService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwDMAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T07:08:35.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T07:08:35.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "LoginLog.cs",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Models\\LoginLog.cs",
               "RelativeDocumentMoniker": "Hash-TrisDES\\Models\\LoginLog.cs",
               "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Models\\LoginLog.cs",
               "RelativeToolTip": "Hash-TrisDES\\Models\\LoginLog.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T18:50:01.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T18:50:01.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "Hash-TrisDES\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Hash-TrisDES\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T14:52:03.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T08:17:44.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "CreateAdmin.cshtml",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Admin\\CreateAdmin.cshtml",
               "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Admin\\CreateAdmin.cshtml",
@@ -222,12 +353,11 @@
               "RelativeToolTip": "Hash-TrisDES\\Views\\Admin\\CreateAdmin.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T08:09:29.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T08:09:29.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "20250630075625_InitialCreate.cs",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Migrations\\20250630075625_InitialCreate.cs",
               "RelativeDocumentMoniker": "Hash-TrisDES\\Migrations\\20250630075625_InitialCreate.cs",
@@ -235,25 +365,11 @@
               "RelativeToolTip": "Hash-TrisDES\\Migrations\\20250630075625_InitialCreate.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAQwDUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T07:56:26.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T07:56:26.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Program.cs",
-              "RelativeDocumentMoniker": "Hash-TrisDES\\Program.cs",
-              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Program.cs",
-              "RelativeToolTip": "Hash-TrisDES\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T18:24:50.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "LoginLogs.cshtml",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Admin\\LoginLogs.cshtml",
               "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Admin\\LoginLogs.cshtml",
@@ -261,25 +377,11 @@
               "RelativeToolTip": "Hash-TrisDES\\Views\\Admin\\LoginLogs.cshtml",
               "ViewState": "AgIAABcAAACAoQFLevkUwBYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T14:52:39.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T14:52:39.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Account\\Register.cshtml",
-              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Hash-TrisDES\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T13:45:52.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\appsettings.json",
               "RelativeDocumentMoniker": "Hash-TrisDES\\appsettings.json",
@@ -287,25 +389,11 @@
               "RelativeToolTip": "Hash-TrisDES\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-28T09:55:28.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T09:55:28.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Hash-TrisDES\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T13:46:40.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Account\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Account\\ChangePassword.cshtml",
@@ -313,12 +401,11 @@
               "RelativeToolTip": "Hash-TrisDES\\Views\\Account\\ChangePassword.cshtml",
               "ViewState": "AgIAADAAAAAAAAAAAAAAACcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T13:46:57.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T13:46:57.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Hash-TrisDES\\Controllers\\HomeController.cs",
@@ -326,12 +413,11 @@
               "RelativeToolTip": "Hash-TrisDES\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T07:41:27.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T07:41:27.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Hash-TrisDES\\Views\\Shared\\_Layout.cshtml",
@@ -339,12 +425,11 @@
               "RelativeToolTip": "Hash-TrisDES\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T17:11:49.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T17:11:49.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Login.css",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\wwwroot\\css\\Login.css",
               "RelativeDocumentMoniker": "Hash-TrisDES\\wwwroot\\css\\Login.css",
@@ -352,12 +437,11 @@
               "RelativeToolTip": "Hash-TrisDES\\wwwroot\\css\\Login.css",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-28T17:07:22.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T17:07:22.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "site.css",
               "DocumentMoniker": "D:\\BMTT\\Hash-TrisDES\\Hash-TrisDES\\Hash-TrisDES\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Hash-TrisDES\\wwwroot\\css\\site.css",
@@ -365,8 +449,7 @@
               "RelativeToolTip": "Hash-TrisDES\\wwwroot\\css\\site.css",
               "ViewState": "AgIAABgAAAAAAAAAAIBJwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-28T17:05:39.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T17:05:39.374Z"
             }
           ]
         }

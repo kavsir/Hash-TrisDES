@@ -10,5 +10,6 @@ namespace Hash_TrisDES.Data
 
         public DbSet<User> Users { get; set; }
         public DbSet<LoginLog> LoginLogs { get; set; }
+        public DbSet<PasswordResetToken> PasswordResetTokens { get; set; }
     }
 }

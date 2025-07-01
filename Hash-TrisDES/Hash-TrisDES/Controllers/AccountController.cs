@@ -10,11 +10,13 @@ namespace Hash_TrisDES.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly SecurityService _security;
+        private readonly IEmailService _emailService;
 
-        public AccountController(ApplicationDbContext context, SecurityService security)
+        public AccountController(ApplicationDbContext context, SecurityService security,  IEmailService emailService)
         {
             _context = context;
             _security = security;
+            _emailService = emailService;
         }   
 
         [HttpGet]
@@ -51,8 +53,8 @@ public async Task<IActionResult> Register(
         IsAdmin = false,
         Ten = ten,
         NgaySinh = DateOnly.FromDateTime(ngaySinh),
-        Phone = _security.HashSHA256(phone),
-        Email = _security.HashSHA256(email)
+        Phone = phone,
+        Email = email
     };
 
     _context.Users.Add(user);
@@ -183,6 +185,111 @@ public async Task<IActionResult> Register(
             _context.LoginLogs.Add(log);
             _context.SaveChanges();
         }
+
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword(string username)
+        {
+
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
+
+            if (user == null)
+            {
+                ModelState.AddModelError("", "Không tìm thấy người dùng.");
+                return View();
+            }
+
+            if (user.IsLocked)
+            {
+                ModelState.AddModelError("", "Tài khoản bị khóa. Không thể đặt lại mật khẩu.");
+                return View();
+            }
+
+            if (string.IsNullOrEmpty(user.Email))
+            {
+                ModelState.AddModelError("", "Email của tài khoản này không khả dụng.");
+                return View();
+            }
+
+
+            // Sinh token
+            string token = Guid.NewGuid().ToString();
+            var resetToken = new PasswordResetToken
+            {
+                Token = token,
+                Username = username,
+                ExpirationTime = DateTime.Now.AddMinutes(15)
+            };
+            _context.PasswordResetTokens.Add(resetToken);
+            await _context.SaveChangesAsync();
+
+            // Gửi email
+            string resetUrl = Url.Action("ResetPassword", "Account", new { token = token }, Request.Scheme);
+            await _emailService.SendEmailAsync(user.Email!, "Đặt lại mật khẩu", $"Nhấn vào đây để đặt lại mật khẩu: {resetUrl}");
+
+            ViewBag.Message = "Liên kết đặt lại mật khẩu đã được gửi đến email của bạn.";
+            return View();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ResetPassword(string token)
+        {
+            var reset = await _context.PasswordResetTokens.FirstOrDefaultAsync(t => t.Token == token);
+
+            if (reset == null || reset.ExpirationTime < DateTime.Now)
+            {
+                ViewBag.Message = "❌ Mã xác nhận không hợp lệ hoặc đã hết hạn.";
+                return View("ResetPassword", "");
+            }
+
+            return View("ResetPassword", token); // truyền token sang view
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(string token, string newPassword, string confirmPassword)
+        {
+            if (newPassword != confirmPassword)
+            {
+                ModelState.AddModelError("", "Mật khẩu không khớp.");
+                return View("ResetPassword", token);
+            }
+
+            var reset = await _context.PasswordResetTokens.FirstOrDefaultAsync(t => t.Token == token);
+
+            if (reset == null || reset.ExpirationTime < DateTime.Now)
+            {
+                ViewBag.Message = "❌ Mã xác nhận không hợp lệ hoặc đã hết hạn.";
+                return View("ResetPassword", "");
+            }
+
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == reset.Username);
+            if (user == null)
+            {
+                ViewBag.Message = "❌ Không tìm thấy người dùng.";
+                return View("ResetPassword", "");
+            }
+
+            // Tạo mật khẩu mới
+            var newSalt = _security.GenerateSalt();
+            user.Salt = newSalt;
+            user.EncryptedPassword = _security.EncryptPassword(user.Username, newPassword, newSalt);
+            user.FailAttempts = 0;
+            user.IsLocked = false;
+
+            // Xoá token đã dùng
+            _context.PasswordResetTokens.Remove(reset);
+            await _context.SaveChangesAsync();
+
+            ViewBag.Message = "Mật khẩu đã được đặt lại thành công. Bạn có thể đăng nhập.";
+            return View("ResetPassword", "");
+        }
+
 
     }
 }

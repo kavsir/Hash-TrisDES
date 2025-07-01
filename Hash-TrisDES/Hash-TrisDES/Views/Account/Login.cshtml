@@ -18,7 +18,17 @@
         <input type="password" name="password" class="form-control" required />
     </div>
     <button type="submit" class="btn btn-primary mt-2">Đăng nhập</button>
+        <div style="display: flex;justify-content: space-between;">
+            <div style="margin-top:20px; text-align:left;">
+                <a href="/Account/Register">Chưa có tài khoản? Đăng ký</a>  
+            </div>
+            <div style="text-align: right; margin-top: 19px;">
+                <a asp-controller="Account" asp-action="ForgotPassword">Quên mật khẩu?</a>
+            </div>
+    </div>
+        
 </form>
+
 <div style="margin-top:20px; text-align:center;">
 <a href="/Account/Register">Chưa có tài khoản? Đăng ký</a>
 </div>
