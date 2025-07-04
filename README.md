@@ -25,6 +25,8 @@
     – Đăng nhập tài khoản
     
     – Đổi mật khẩu (sau khi đăng nhập thành công)
+
+    - Quên mật khẩu( thông qua bằng gmail)
     
     – Cảnh báo nếu nhập sai mật khẩu
     
